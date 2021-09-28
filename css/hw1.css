@@ -4,7 +4,7 @@
     padding: 0;
 }
 header {
-    background: url('/images/flywheel.jpg');
+    background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
     background-size: cover;
     text-align: center;
     font-size: 175%;
@@ -55,7 +55,7 @@ main > aside > a > img{
     height: 120px;
 }  
 main aside a:hover {
-    cursor: url('/images/curmiku9.png'), auto;
+    cursor: url('http://ani4u.org/cus/curmiku9.png'), auto;
 }
 aside {
     float: left;
@@ -123,5 +123,5 @@ section table tr td:hover{
     opacity: 1;
 }
 html, body {
-    cursor: url('/images/curmiku6.png'),auto;
+    cursor: url('http://ani4u.org/cus/curmiku6.png'), auto;
 }
