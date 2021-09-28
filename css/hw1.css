@@ -45,7 +45,7 @@ nav > a:focus,
 nav > a:hover {
     font-size: 120%;
     background:rgba(255,255,255, 1);
-    cursor: url('/images/curmiku9.png'), auto;
+    cursor: url('https://github.com/Nguyen-Quoc-Anh/Test1/blob/master/images/curmiku9.png'), auto;
 }
 
 main > aside > a > img{
@@ -55,7 +55,7 @@ main > aside > a > img{
     height: 120px;
 }  
 main aside a:hover {
-    cursor: url('http://ani4u.org/cus/curmiku9.png'), auto;
+    cursor: url('https://github.com/Nguyen-Quoc-Anh/Test1/blob/master/images/curmiku9.png'), auto;
 }
 aside {
     float: left;
