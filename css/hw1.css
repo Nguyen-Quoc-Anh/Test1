@@ -1,59 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 header {
-    background-color: #00ccff;
+    background: url('/images/flywheel.jpg');
+    background-size: cover;
     text-align: center;
     font-size: 175%;
     padding: 2.5%;
-    width: 65%;
-    margin-left: 15%;
-    border: 1px solid #FFF;
+    width: 80.5%;
+    margin-left: 10%;
+    border: 0.01% solid #FFF;
     border-radius: 40px;
+    color: #FFFFFF;
 }
 header > h1 {
     font-size: 150%;
-    text-transform: uppercase;
 }
 nav {
     font-size: 75%;
 }
-nav > a{
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav a{
+    margin-top: 2%;
     font-size: larger;
+    display: inline-block;
+    padding: 20px;
     text-decoration: none;
-    padding-right: 10px;
+    color: #000000;
+    width: 20%;
+    background:rgba(255,255,255, 0.3);
+    border-radius: 25px;
 }
+
 nav > a:visited{
-    color: #0112ff;
+    color: hsl(0, 0%, 0%);
 }
+
+nav > a:focus,
 nav > a:hover {
-    font-size: 115%;
-    
+    font-size: 120%;
+    background:rgba(255,255,255, 1);
+    cursor: url('/images/curmiku9.png'), auto;
 }
-main > aside > a > img {
-    display: none;
+
+main > aside > a > img{
+    display:block;
+    width: 175px;
+    padding-top: 20px;
+    height: 120px;
+}  
+main aside a:hover {
+    cursor: url('/images/curmiku9.png'), auto;
+}
+aside {
+    float: left;
+    margin: 0 0 0 10%;
+    background-color: #faebd7;
+    padding: 1%;
+    border-radius: 40px;
+    height:500px;
 }
 section {
-    margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin:2% 9.5% 0 24.5%;
     padding: 5%;
-    background-color: #faebd7;
-    border: 1px solid #FFF;
+    height: 100%;
+    border: 0.01% solid #FFF;
     border-radius: 40px;
+    background-color: #faebd7;
 }
-section > p,table {
-    margin: 15px;
+section > p {
+    margin: 10px;
 }
 section > h2 {
     color: #494949;
 }
 
 section > ul > li > a{
-    font-style: italic;
     text-decoration: none;
-}
-section > p > a {
     font-style: italic;
-    text-decoration: none;
 }
 section > p {
     font-size: 18px;
+}
+section > p > a {
+    text-decoration: none;
+    font-style: unset;
+}
+section > table {
+    width: 750px;
+    margin-top: 25px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section table tr td{
+    background-color: rgb(143, 209, 253);
+}
+section table tr th:not(:first-child),
+section table tr td:not(:nth-child(1)){
+    text-align: center;
+}
+section table tr th,
+section table tr td{
+    border: 1px solid #FFF;
+    opacity: 0.7;
+}
+section table tr:first-child{
+    background-color: rgb(52, 174, 255);
+    text-align: left;    
+}
+section table tr th:first-child,
+section table tr td:first-child{
+    padding-left: 20px;
+}
+section table tr th:hover,
+section table tr td:hover{
+    transition-duration: background 0.5s;
+    opacity: 1;
+}
+html, body {
+    cursor: url('/images/curmiku6.png'),auto;
 }
